@@ -1,0 +1,36 @@
+#add library
+
+int main() {
+
+FILE *input;
+  input = fopen("data", "r");               // (file name, reading or writing)
+    if(input == NULL) {
+    perror("fopen()");
+    return;
+    }
+    
+    while(!feof(stream)) {
+      Read from file
+      char str[] = stream
+      Allocate letters == numbers          // if SPACE do nothing, else do normal thing
+      }
+      
+      
+    
+   
+      
+    
+           
+ 
+ 
+
+ 
+   return (0)
+}
+
+//Notes:
+//    c = c - 65   converts each letter of the alphabet to a number with the allocation: A = 0
+                                                                                         B = 1
+                                                                                         C = 2
+                                                                                          ...
+                                                                                         Z = 25.
