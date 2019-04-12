@@ -1,0 +1,45 @@
+#include <stdio.h>
+
+
+
+int main() {
+
+char letter[100];
+int i=0;                //k=0;               //i for letters, k for numbers
+FILE *data.dat;
+
+
+
+//Opening the data file
+input = fopen("data.dat", "r");               
+    if(input == NULL) {
+    perror("fopen()");
+    return(0);
+    }
+    
+    
+    //Recording the data file while its open
+    while(!feof(data.dat)) {
+        scanf(data, "%c", letter[i]);
+        i++
+    }
+
+//Closing the data file
+fclose(data.dat);
+
+ 
+//Printing the data file to the console
+printf("%c", letter[i]);      
+    
+   
+
+ 
+   return (0)
+}
+
+//Notes:
+//    c = c - 65   converts each letter of the alphabet to a number with the allocation: A = 0
+                                                                                         //B = 1
+                                                                                         //C = 2
+                                                                                         // ...
+                                                                                         // Z = 25.
